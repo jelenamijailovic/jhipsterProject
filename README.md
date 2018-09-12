@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jhipsterProject
 This application was generated using JHipster 5.1.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.1.0](https://www.jhipster.tech/documentation-archive/v5.1.0).
 
@@ -71,3 +72,6 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [Setting up Continuous Integration]: https://www.jhipster.tech/documentation-archive/v5.1.0/setting-up-ci/
 
 
+=======
+# jhipsterProject
+>>>>>>> branch 'master' of https://github.com/jelenamijailovic/jhipsterProject.git
