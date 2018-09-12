@@ -1,0 +1,27 @@
+{
+    "name": "Price",
+    "fields": [
+        {
+            "fieldName": "price",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "price",
+            "otherEntityName": "song",
+            "otherEntityRelationshipName": "price"
+        }
+    ],
+    "changelogDate": "20180912063542",
+    "javadoc": "Task entity.\n@author The JHipster team.",
+    "entityTableName": "price",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

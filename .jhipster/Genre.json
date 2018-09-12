@@ -1,0 +1,27 @@
+{
+    "name": "Genre",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "genre",
+            "otherEntityName": "artist",
+            "otherEntityRelationshipName": "genre"
+        }
+    ],
+    "changelogDate": "20180912063540",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "genre",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
